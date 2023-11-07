@@ -1,4 +1,4 @@
-Rancid Tomatillos
+# Rancid Tomatillos
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -7,94 +7,74 @@ Rancid Tomatillos
 - [Learning Goals](#learning-goals)
 - [Project Evolution](#project-evolution)
 - [Project Reflections](#project-reflections)
+- [Extensions](#extensions)
+- [Future Goals](#future-goals)
 - [Organizational Resources](#organizational-resources)
 - [Set Up](#set-up)
-- [Operating Instructions](#operating-instructions)
 - [Application in Action](#application-in-action)
-- [Future Goals](#future-goals)
 - [Testing](#testing)
-- [Extensions Completed](#extensions-completed)
 
 ## About the Project
+Rancid Tomatillos is a React-based web application that offers users the ability to browse movies, view detailed information, and search by title or genre. It features an autoplay trailer for an immersive experience when a user selects a movie to explore further.
 
-Rancid Tomatillos is a web application that allows the user to browse a selection of movies. The user can click on any one of the movies to view more details about that particular movie. The user also has the option of searching for a particular movie by title or genre. Once the user selects a movie, and goes to the movies details page, a trailer automatically loads so they can get a good feel for that movie. 
-
-The details of this project are outlined in the [project spec](https://frontend.turing.edu/projects/module-3/rancid-tomatillos-v3.html)
-
+For project specifications, visit the [project spec](https://frontend.turing.edu/projects/module-3/rancid-tomatillos-v3.html).
 
 ## Application in Action
 
-### View Movie Details
-![movie-details](./assets/movie-details.gif)
+**View Movie Details**
+![View Movie Details](./assets/movie-details.gif)
 
-### Search by Genre
-![movie-details](./assets/genre-search.gif)
+**Search by Genre**
+![Search by Genre](./assets/genre-search.gif)
 
 ## Technologies Used
+- JavaScript
+- React.js
+- React Router
+- Cypress for testing
+- Figma for design
+- Git & GitHub for version control
+- Postman for API testing
+- HTML & CSS for markup and styling
+- NPM for package management
 
-1. JavaScript
-1. React.js
-1. Router
-1. Cypress
-1. Figma
-1. Git & Github
-1. Postman
-1. HTML
-1. CSS
-1. NPM
 ## Contributors
+- [Eli Davidson](https://github.com/elleshadow)
+- [Nathan Hodnett](https://github.com/nhodnett)
 
-* [Eli Davidson](https://github.com/elleshadow)
-* [Nathan Hodnett](https://github.com/nhodnett)
+### Project Manager
+- [Kayla Gordon](https://github.com/)
 
-### Project Manger
-* [Kayla Gordon](https://github.com/)
 ## Learning Goals
-
-* Eli Davidson:
-    1. React components.
-    1. Cypress.
-    1. Acync functions.
-    1. Conditonal rendering.
-
-* Nathan Hodnett:
-    1. React component structure.
-    1. Class components vs functional components.
-    1. Cypress testing.
-    1. Router.
+- React component lifecycles and state management.
+- End-to-end testing with Cypress.
+- Asynchronous functions and API calls.
+- Dynamic and conditional rendering in React.
 
 ## Project Evolution
-Origionally, we wanted to create genre carousels on the main page, but ran out of time; so, we removed that idea from the MVP, and plan to add it in a future iteration. 
-
-Also, we changed our component structure as the iterations progressed, from class to function and then back again, as the functionality needs of those components became clear.
+The concept of genre carousels was initially considered but moved to future development goals to maintain the scope for MVP. Component structures evolved throughout the project to optimize functionality.
 
 ## Project Reflections
->what didn't work, what did we learn?
+Challenges were faced with React's rendering based on state and timing within Cypress tests, which required strategic waits and state checks.
 
-* Eli Davidson:
-1. React is all about timing. We learned a lot about watching what informaiton/data was in state during rendering, and how to ensure all data ended up in state by the time the component needed to access it. 
-
-* Nathan Hodnett:
-1. Cypress tests were also heavily timing dependent this envolved us adjusting timing / adding wait in order to run the tests successfully.
 ## Extensions
-For this project we chose to complete the "More React Functionality" CYOA. In particular we added search/filtering functionality to the movies.
+"More React Functionality" was chosen, adding search and filtering capabilities to the movie selection process.
 
-### Future Goals
-1. Genre based carousels.
-1. Error handle "Youtube video not available" 
-1. Favorites functionality.
-1. Deploy using Heroku.
-1. Responsive CSS for Movie cards.
+## Future Goals
+- Implement genre-based carousels.
+- Improve error handling for unavailable YouTube videos.
+- Add favorites feature and user personalization.
+- Deploy with Heroku and enhance responsive design for movie cards.
+
 ## Organizational Resources
-
-* [Project board](https://github.com/nhodnett/rancid-tomatillos/projects/1)
-* [Figma](https://www.figma.com/file/B5YF2KSCHALrpK1mAkaCVu/Component-architecture?node-id=0%3A1)
+- [Project board on GitHub](https://github.com/nhodnett/rancid-tomatillos/projects/1) for task management.
+- [Figma wireframes](https://www.figma.com/file/B5YF2KSCHALrpK1mAkaCVu/Component-architecture?node-id=0%3A1) for design planning.
 
 ## Set Up
-1. Forking the repo.
-1. Clone down a local copy.
-2. CD into the directory and run npm install. 
-    * This will install the dependencies you need for the project. 
-5. To open the webpage run npm start.
+To set up the project locally:
+1. Fork and clone the repository.
+2. Navigate to the directory and run `npm install` to install dependencies.
+3. Start the application with `npm start`.
 
-
+## Testing
+Cypress is used for end-to-end testing. Run `npm test` to execute the test suites.
