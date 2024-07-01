@@ -28,15 +28,28 @@ For project specifications, visit the [project spec](https://frontend.turing.edu
 ![Search by Genre](./assets/genre-search.gif)
 
 ## Technologies Used
+
+### Languages
 - JavaScript
-- React.js
-- React Router
-- Cypress for testing
-- Figma for design
-- Git & GitHub for version control
-- Postman for API testing
-- HTML & CSS for markup and styling
-- NPM for package management
+
+### Frontend
+- React
+  - react-dom
+  - react-router-dom
+
+### Testing
+- @testing-library/react
+- @testing-library/jest-dom
+- @testing-library/user-event
+- Cypress
+- Web Vitals
+
+### Build Tools
+- react-scripts
+
+### Others
+- ESLint
+- Browserslist
 
 ## Contributors
 - [Eli Davidson](https://github.com/elleshadow)
